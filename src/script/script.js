@@ -9,6 +9,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
         color: "#FF5500"
     });
 
+    var slider3 = new Slider({
+        container: "#slider",
+        color: "#22FF33"
+    });
+
     slider1.addSlider();
     slider2.addSlider();
+    slider3.addSlider();
 });

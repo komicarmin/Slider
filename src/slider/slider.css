@@ -1,0 +1,34 @@
+.slider-values {
+    color: black;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.slider-values > .value-wrap > .value,
+.slider-values > .value-wrap > .color,
+.slider-values > .value-wrap > .title {
+    display: inline-block;
+}
+
+.slider-values > .value-wrap > .value {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.slider-values > .value-wrap > .color {
+    background-color: green;
+    width: 26px;
+    height: 13px;
+    margin: 0 20px;
+}
+
+.slider-values > .value-wrap > .title {
+    font-size: 16px;
+}
+
+
+
+.slider-sliders {
+    display: inline;
+    border: 1px solid black;
+}
