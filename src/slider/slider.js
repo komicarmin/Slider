@@ -1,7 +1,6 @@
 class Slider {
 
     constructor(options) {
-        console.log(options);
         this.container = options.container || "body";
         this.color = options.color || "blue";
         this.max = options.max || 100;
@@ -12,7 +11,6 @@ class Slider {
     }
 
     addSlider() {
-        console.log(this.container);
         var container = document.querySelector(this.container);
 
         container.innerHTML += '<p style="color:' + this.color + '">Slider</p>';
